@@ -1,0 +1,24 @@
+int main() {
+    auto x = 5;
+    break;
+    const int MAX = 100;
+    return 0;
+}
+
+int entero = 10;
+float decimal = 3.14;
+double largo = 2.71828;
+char letra = 'A';
+void funcion_vacia() {}
+
+contador
+_10contador
+_variable
+mi_variable
+__oculta
+10contador
+nombre123
+x_y_z
+_variable4
+main
+_t3st
