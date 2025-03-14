@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Este es un comentario de una sola línea
+    printf("Hola Mundo\n");
+
+    /* Este es un comentario
+       de múltiples líneas. */
+    
+    int a = 5; // Comentario después de una declaración
+    
+    /* Otro comentario de multiples lineas
+       con mas texto. */
+    
+    return 0;
+}
