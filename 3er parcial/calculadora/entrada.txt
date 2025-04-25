@@ -1,0 +1,31 @@
+º 4 ejemplos correctos:
+
+	5 + 3
+	Tokens: [NUM: 5] [SIGNO: +] [NUM: 3]
+	Resultado: 5 + 3 = 8
+
+	10 - 4
+	Tokens: [NUM: 10] [SIGNO: -] [NUM: 4]
+	Resultado: 10 - 4 = 6
+
+	7 * 2
+	Tokens: [NUM: 7] [SIGNO: *] [NUM: 2]
+	Resultado: 7 * 2 = 14
+
+	8 / 2
+	Tokens: [NUM: 8] [SIGNO: /] [NUM: 2]
+	Resultado: 8 / 2 = 4
+
+º 4 con que provoquen errores del tipo "syntax error";
+
+	5 +
+	Error: syntax error
+
+	3 9
+	Error: syntax error
+
+	- 10
+	Error: syntax error
+
+	5 * / 10
+	Error: syntax error
