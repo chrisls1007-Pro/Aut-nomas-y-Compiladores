@@ -1,0 +1,38 @@
+º Sentencias Correctas:
+	SELECT columna1, columna2 FROM tabla WHERE columna1 = 10;
+		Consulta procesada (LÝnea 1):
+	  	Operacion: columna1,columna2
+  		Tabla/Datos: tabla
+		Consulta vßlida en lÝnea 1
+
+	INSERT INTO empleados (nombre, salario) VALUES ('Juan', 3000);
+		Consulta procesada (LÝnea 2):
+  		Operacion: empleados
+  		Tabla/Datos: (nombre,salario) VALUES('Juan',3000)
+		Consulta vßlida en lÝnea 2
+
+	UPDATE empleados SET salario = 3500 WHERE nombre = 'Juan';
+		Consulta procesada (LÝnea 4):
+		Operacion: empleados
+		Tabla/Datos: salario=3500
+		Consulta vßlida en lÝnea 4
+
+	DELETE FROM empleados WHERE nombre = 'Juan';
+		Consulta procesada (LÝnea 6):
+		Operacion: DELETE
+ 		Tabla/Datos: empleados
+		Consulta vßlida en lÝnea 6
+
+º Sentencias Incorrectas:
+
+	SELECT columna1 FROM;
+		Error en lÝnea 21: syntax error (Falta tabla)
+
+	SELET columna1, columna2 FROM tabla WHERE columna1 = 10;
+		Error en lÝnea 23: Error de sintaxis (SELECT escrito mal)	
+
+	UPDATE empleados SET salario;
+		Error en lÝnea 25: syntax error (Falta valor a salario)
+
+	INSERT INT empleados (nombre, salario) VALUES ('Juan', 3000);
+		Error en lÝnea 27: syntax error (Palabra INTo escrito mal)
